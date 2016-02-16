@@ -1,7 +1,7 @@
 FROM cassandra:2.1.11
 
 RUN apt-get update \
-	&& apt-get -y install curl sysstat netcat
+	&& apt-get -y install curl sysstat netcat rsync
 
 RUN curl -L http://downloads.datastax.com/community/datastax-agent-5.2.2.tar.gz | tar xz
 RUN ln -s /datastax-agent-5.2.2 /datastax-agent
