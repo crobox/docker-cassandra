@@ -1,4 +1,4 @@
-FROM cassandra:3.0.4
+FROM cassandra:3.0.5
 
 RUN apt-get update \
 	&& apt-get -y install curl sysstat netcat rsync
