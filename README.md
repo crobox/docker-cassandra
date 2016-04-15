@@ -1,4 +1,4 @@
 
-[![](https://badge.imagelayers.io/sagent/cassandra:latest.svg)](https://imagelayers.io/?images=sagent/cassandra:latest)
+[![](https://badge.imagelayers.io/crobox/cassandra:latest.svg)](https://imagelayers.io/?images=crobox/cassandra:latest)
 
-Cassandra image with Datastas Agent
+Cassandra image with Datastax Agent
