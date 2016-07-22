@@ -1,4 +1,4 @@
-FROM cassandra:3.0.6
+FROM cassandra:3.0.8
 
 RUN mkdir /prometheus
 ADD "https://bitbucket.org/sagent/downloads/downloads/jmx_prometheus_javaagent-0.6.jar" /prometheus
