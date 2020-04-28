@@ -1,4 +1,4 @@
-FROM cassandra:3.11.4
+FROM cassandra:3.11.6
 
 RUN mkdir /prometheus
 ADD "https://repo1.maven.org/maven2/io/prometheus/jmx/jmx_prometheus_javaagent/0.12.0/jmx_prometheus_javaagent-0.12.0.jar" /prometheus
