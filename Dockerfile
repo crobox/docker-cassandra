@@ -6,7 +6,7 @@ RUN chmod 644 /prometheus/jmx_prometheus_javaagent-0.12.0.jar
 ADD cassandra.yml /prometheus/cassandra.yml
 
 # add dependencies for logstash-logback-encoder
-ADD lib /usr/share/cassandra/lib
+ADD lib /opt/cassandra/lib
 
 ENV JVM_OPTS "$JVM_OPTS -javaagent:/prometheus/jmx_prometheus_javaagent-0.12.0.jar=61621:/prometheus/cassandra.yml "
 
